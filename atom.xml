@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-02-12T07:47:30.478Z</updated>
+  <updated>2017-02-12T08:39:00.769Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,19 +16,53 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>css伪元素生成内容</title>
+    <link href="http://yoursite.com/2017/02/12/css%E4%BC%AA%E5%85%83%E7%B4%A0%E7%94%9F%E6%88%90%E5%86%85%E5%AE%B9/"/>
+    <id>http://yoursite.com/2017/02/12/css伪元素生成内容/</id>
+    <published>2017-02-12T08:04:02.000Z</published>
+    <updated>2017-02-12T08:39:00.769Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="css伪元素生成内容"><a href="#css伪元素生成内容" class="headerlink" title="css伪元素生成内容"></a>css伪元素生成内容</h2><blockquote>
+<p>content配合css的伪类或者伪元素,一般可以做一下四件事情</p>
+</blockquote>
+<ul>
+<li>none : 不生成任何内容</li>
+<li>attr : 插入标签属性值</li>
+<li>url  : 使用指定的绝对或相对地址插入一个外部资源(图像,音频,视频或浏览器支持的其他任何资源)</li>
+<li>string: 插入字符串</li>
+</ul>
+<h2 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&lt;!-- 清除浮动 --&gt;</div><div class="line">.clearfix:before,</div><div class="line">.clearfix:after &#123;</div><div class="line">    content:&quot;&quot;;</div><div class="line">    display:table;</div><div class="line">&#125;</div><div class="line"></div><div class="line">.clearfix:after &#123;</div><div class="line">    clear:both;</div><div class="line">    overflow:hidden;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>##插入内容</p>
+<blockquote>
+<p>利用伪元素插入内容</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">&lt;!doctype html&gt;</div><div class="line">&lt;html&gt;</div><div class="line">&lt;head&gt;</div><div class="line">&lt;meta charset=&quot;utf-8&quot;&gt;</div><div class="line">&lt;title&gt;CSS生成内容&lt;/title&gt;</div><div class="line">&lt;style type=&quot;text/css&quot;&gt;</div><div class="line">    h1:before &#123;</div><div class="line">        content:&quot;我在标题之前&quot;;</div><div class="line">        color:red;</div><div class="line">    &#125;</div><div class="line">&lt;/style&gt;</div><div class="line">&lt;/head&gt;</div><div class="line">&lt;body&gt;</div><div class="line">&lt;h1&gt;我是标题，在我前面插入内容吧&lt;/h1&gt;</div><div class="line">&lt;/body&gt;</div><div class="line">&lt;/html&gt;</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;css伪元素生成内容&quot;&gt;&lt;a href=&quot;#css伪元素生成内容&quot; class=&quot;headerlink&quot; title=&quot;css伪元素生成内容&quot;&gt;&lt;/a&gt;css伪元素生成内容&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;content配合css的伪类或者伪元素,一般可以
+    
+    </summary>
+    
+    
+      <category term="::before,::after" scheme="http://yoursite.com/tags/before-after/"/>
+    
+  </entry>
+  
+  <entry>
     <title>resize</title>
     <link href="http://yoursite.com/2017/02/12/resize/"/>
     <id>http://yoursite.com/2017/02/12/resize/</id>
     <published>2017-02-12T07:42:02.000Z</published>
-    <updated>2017-02-12T07:47:30.478Z</updated>
+    <updated>2017-02-12T08:04:06.913Z</updated>
     
-    <content type="html"><![CDATA[<p>#自由缩放属性resize</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line">&lt;!doctype html&gt;</div><div class="line">&lt;html&gt;</div><div class="line">&lt;head&gt;</div><div class="line">&lt;meta charset=&quot;utf-8&quot;&gt;</div><div class="line">&lt;title&gt;自由缩放属性resize&lt;/title&gt;</div><div class="line">&lt;style type=&quot;text/css&quot;&gt;</div><div class="line">    textarea&#123;</div><div class="line">      resize: vertical</div><div class="line">    &#125;</div><div class="line">&lt;/style&gt;</div><div class="line">&lt;/head&gt;</div><div class="line">&lt;body&gt;</div><div class="line"></div><div class="line">&lt;!-- none  用户不能拖动元素修改尺寸大小。</div><div class="line">     both  用户可以拖动元素，同时修改元素的宽度和高度</div><div class="line">horizontal 用户可以拖动元素，仅可以修改元素的宽度，但不能修改元素的高度。</div><div class="line">vertical   用户可以拖动元素，仅可以修改元素的高度，但不能修改元素的宽度。</div><div class="line">inherit    继承父元素的resize属性值。</div><div class="line"> --&gt;</div><div class="line"></div><div class="line"></div><div class="line">&lt;textarea name=&quot;&quot; id=&quot;&quot; cols=&quot;30&quot; rows=&quot;10&quot;&gt;&lt;/textarea&gt;</div><div class="line">&lt;/body&gt;</div><div class="line">&lt;/html&gt;</div></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>#自由缩放属性resize<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line">&lt;!doctype html&gt;</div><div class="line">&lt;html&gt;</div><div class="line">&lt;head&gt;</div><div class="line">&lt;meta charset=&quot;utf-8&quot;&gt;</div><div class="line">&lt;title&gt;自由缩放属性resize&lt;/title&gt;</div><div class="line">&lt;style type=&quot;text/css&quot;&gt;</div><div class="line">    textarea&#123;</div><div class="line">      resize: vertical</div><div class="line">    &#125;</div><div class="line">&lt;/style&gt;</div><div class="line">&lt;/head&gt;</div><div class="line">&lt;body&gt;</div><div class="line"></div><div class="line">&lt;!-- none  用户不能拖动元素修改尺寸大小。</div><div class="line">     both  用户可以拖动元素，同时修改元素的宽度和高度</div><div class="line">horizontal 用户可以拖动元素，仅可以修改元素的宽度，但不能修改元素的高度。</div><div class="line">vertical   用户可以拖动元素，仅可以修改元素的高度，但不能修改元素的宽度。</div><div class="line">inherit    继承父元素的resize属性值。</div><div class="line"> --&gt;</div><div class="line"></div><div class="line"></div><div class="line">&lt;textarea name=&quot;&quot; id=&quot;&quot; cols=&quot;30&quot; rows=&quot;10&quot;&gt;&lt;/textarea&gt;</div><div class="line">&lt;/body&gt;</div><div class="line">&lt;/html&gt;</div></pre></td></tr></table></figure></p>
+]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;#自由缩放属性resize&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;d
+      &lt;p&gt;#自由缩放属性resize&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;di
     
     </summary>
     
