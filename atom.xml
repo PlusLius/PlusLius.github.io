@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-02-09T15:28:49.906Z</updated>
+  <updated>2017-02-12T07:47:30.478Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>resize</title>
+    <link href="http://yoursite.com/2017/02/12/resize/"/>
+    <id>http://yoursite.com/2017/02/12/resize/</id>
+    <published>2017-02-12T07:42:02.000Z</published>
+    <updated>2017-02-12T07:47:30.478Z</updated>
+    
+    <content type="html"><![CDATA[<p>#自由缩放属性resize</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line">&lt;!doctype html&gt;</div><div class="line">&lt;html&gt;</div><div class="line">&lt;head&gt;</div><div class="line">&lt;meta charset=&quot;utf-8&quot;&gt;</div><div class="line">&lt;title&gt;自由缩放属性resize&lt;/title&gt;</div><div class="line">&lt;style type=&quot;text/css&quot;&gt;</div><div class="line">    textarea&#123;</div><div class="line">      resize: vertical</div><div class="line">    &#125;</div><div class="line">&lt;/style&gt;</div><div class="line">&lt;/head&gt;</div><div class="line">&lt;body&gt;</div><div class="line"></div><div class="line">&lt;!-- none  用户不能拖动元素修改尺寸大小。</div><div class="line">     both  用户可以拖动元素，同时修改元素的宽度和高度</div><div class="line">horizontal 用户可以拖动元素，仅可以修改元素的宽度，但不能修改元素的高度。</div><div class="line">vertical   用户可以拖动元素，仅可以修改元素的高度，但不能修改元素的宽度。</div><div class="line">inherit    继承父元素的resize属性值。</div><div class="line"> --&gt;</div><div class="line"></div><div class="line"></div><div class="line">&lt;textarea name=&quot;&quot; id=&quot;&quot; cols=&quot;30&quot; rows=&quot;10&quot;&gt;&lt;/textarea&gt;</div><div class="line">&lt;/body&gt;</div><div class="line">&lt;/html&gt;</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#自由缩放属性resize&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;d
+    
+    </summary>
+    
+    
+      <category term="自由缩放属性resize" scheme="http://yoursite.com/tags/%E8%87%AA%E7%94%B1%E7%BC%A9%E6%94%BE%E5%B1%9E%E6%80%A7resize/"/>
+    
+  </entry>
   
   <entry>
     <title>ceshi</title>
