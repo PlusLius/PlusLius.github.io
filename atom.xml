@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-02-12T08:39:00.769Z</updated>
+  <updated>2017-02-12T08:56:39.127Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/02/12/css%E4%BC%AA%E5%85%83%E7%B4%A0%E7%94%9F%E6%88%90%E5%86%85%E5%AE%B9/"/>
     <id>http://yoursite.com/2017/02/12/css伪元素生成内容/</id>
     <published>2017-02-12T08:04:02.000Z</published>
-    <updated>2017-02-12T08:39:00.769Z</updated>
+    <updated>2017-02-12T08:56:39.127Z</updated>
     
     <content type="html"><![CDATA[<h2 id="css伪元素生成内容"><a href="#css伪元素生成内容" class="headerlink" title="css伪元素生成内容"></a>css伪元素生成内容</h2><blockquote>
 <p>content配合css的伪类或者伪元素,一般可以做一下四件事情</p>
@@ -31,7 +31,7 @@
 <li>url  : 使用指定的绝对或相对地址插入一个外部资源(图像,音频,视频或浏览器支持的其他任何资源)</li>
 <li>string: 插入字符串</li>
 </ul>
-<h2 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&lt;!-- 清除浮动 --&gt;</div><div class="line">.clearfix:before,</div><div class="line">.clearfix:after &#123;</div><div class="line">    content:&quot;&quot;;</div><div class="line">    display:table;</div><div class="line">&#125;</div><div class="line"></div><div class="line">.clearfix:after &#123;</div><div class="line">    clear:both;</div><div class="line">    overflow:hidden;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&lt;!-- 清除浮动 --&gt;</div><div class="line">.clearfix:before,</div><div class="line">.clearfix:after &#123;</div><div class="line">    content:&quot;&quot;;</div><div class="line">    display:table;</div><div class="line">&#125;</div><div class="line"></div><div class="line">.clearfix:after &#123;</div><div class="line">    clear:both;</div><div class="line">    overflow:hidden;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>##插入内容</p>
 <blockquote>
 <p>利用伪元素插入内容</p>
