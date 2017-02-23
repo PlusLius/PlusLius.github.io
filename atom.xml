@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-02-23T03:51:21.989Z</updated>
+  <updated>2017-02-23T03:54:43.273Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,41 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>借用构造函数实现继承</title>
+    <link href="http://yoursite.com/2017/02/23/%E5%80%9F%E7%94%A8%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E5%AE%9E%E7%8E%B0%E7%BB%A7%E6%89%BF/"/>
+    <id>http://yoursite.com/2017/02/23/借用构造函数实现继承/</id>
+    <published>2017-02-23T03:51:01.000Z</published>
+    <updated>2017-02-23T03:54:43.273Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="借用构造函数实现继承"><a href="#借用构造函数实现继承" class="headerlink" title="借用构造函数实现继承"></a>借用构造函数实现继承</h2><blockquote>
+<ul>
+<li>思路: 在子类构造函数中调用父类构造函数,通过使用call和apply方法在新创建对象上执行构造函数;<ul>
+<li>缺点: 方法都在构造函数中定义,函数的复用无从谈起,父类构造函数中的方法对子类构造函数而言是不可见的,结果<br>   所有类型都只能使用构造函数模式</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line">&lt;!DOCTYPE html&gt;</div><div class="line">&lt;html lang=&quot;en&quot;&gt;</div><div class="line">&lt;head&gt;</div><div class="line">    &lt;meta charset=&quot;UTF-8&quot; /&gt;</div><div class="line">    &lt;title&gt;Document&lt;/title&gt;</div><div class="line">&lt;/head&gt;</div><div class="line">&lt;body&gt;</div><div class="line">    &lt;script&gt;</div><div class="line"></div><div class="line">        function SuperType()&#123;</div><div class="line">            this.color = [&apos;red&apos;,&apos;green&apos;,&apos;blue&apos;];</div><div class="line">            //缺点: 方法都在构造函数中定义,函数的复用无从谈起</div><div class="line">            //父类的构造函数对子类而言是不可见的,结果所有类型都只能使用构造函数模式</div><div class="line">        &#125;</div><div class="line"></div><div class="line"></div><div class="line">        function SubType()&#123;</div><div class="line">            SuperType.call(this);</div><div class="line">            //在子类构造函数中调用父类构造函数中的方法</div><div class="line">        &#125;</div><div class="line"></div><div class="line"></div><div class="line">        var instance1 = new SubType();</div><div class="line">        instance1.color.push(&quot;yellow&quot;);</div><div class="line">        alert(instance1.color);</div><div class="line"></div><div class="line">        var instance2 = new SubType();</div><div class="line">        alert(instance2.color)</div><div class="line"></div><div class="line"></div><div class="line">    &lt;/script&gt;</div><div class="line">&lt;/body&gt;</div><div class="line">&lt;/html&gt;</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;借用构造函数实现继承&quot;&gt;&lt;a href=&quot;#借用构造函数实现继承&quot; class=&quot;headerlink&quot; title=&quot;借用构造函数实现继承&quot;&gt;&lt;/a&gt;借用构造函数实现继承&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;思路: 在子类构造函数中调用父类构造函
+    
+    </summary>
+    
+    
+      <category term="借用构造函数实现继承" scheme="http://yoursite.com/tags/%E5%80%9F%E7%94%A8%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E5%AE%9E%E7%8E%B0%E7%BB%A7%E6%89%BF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>css3实用小技巧</title>
     <link href="http://yoursite.com/2017/02/12/css3%E5%AE%9E%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
     <id>http://yoursite.com/2017/02/12/css3实用小技巧/</id>
     <published>2017-02-12T09:17:01.000Z</published>
-    <updated>2017-02-23T03:51:21.989Z</updated>
+    <updated>2017-02-23T03:54:28.717Z</updated>
     
     <content type="html"><![CDATA[<h2 id="CSS3圆角的使用小技巧"><a href="#CSS3圆角的使用小技巧" class="headerlink" title="CSS3圆角的使用小技巧"></a>CSS3圆角的使用小技巧</h2><blockquote>
 <p>实心上半圆:盒子的宽度是高度的一半,border-radius左上和右上角的值大于或等于盒子高度的值</p>
