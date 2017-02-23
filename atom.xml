@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-02-23T03:54:43.273Z</updated>
+  <updated>2017-02-23T03:56:24.355Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <title>借用构造函数实现继承</title>
     <link href="http://yoursite.com/2017/02/23/%E5%80%9F%E7%94%A8%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E5%AE%9E%E7%8E%B0%E7%BB%A7%E6%89%BF/"/>
     <id>http://yoursite.com/2017/02/23/借用构造函数实现继承/</id>
-    <published>2017-02-23T03:51:01.000Z</published>
-    <updated>2017-02-23T03:54:43.273Z</updated>
+    <published>2017-02-23T03:19:18.794Z</published>
+    <updated>2017-02-23T03:56:24.355Z</updated>
     
     <content type="html"><![CDATA[<h2 id="借用构造函数实现继承"><a href="#借用构造函数实现继承" class="headerlink" title="借用构造函数实现继承"></a>借用构造函数实现继承</h2><blockquote>
 <ul>
